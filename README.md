@@ -21,6 +21,43 @@ Real-time community sentiment aggregation with Claude AI analyzing quality posts
 
 ---
 
+### [Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt) — AI Prompt Engineering Toolkit
+> Define prompts, test them, let AI agents analyze failures and improve automatically.
+
+Multi-agent system that creates a feedback loop: define prompts → evaluate against test cases → AI analyzes failures → generates improved versions → repeat until 90% success rate. Converts user feedback into synthetic test cases to prevent recurring issues. Full-stack with separate FastAPI backend (async SQLAlchemy, Redis workers) and Next.js frontend.
+
+`Next.js 16` `FastAPI` `PostgreSQL` `Redis` `Google Gemini` `SQLAlchemy`
+
+[GitHub](https://github.com/giaphutran12/self-improving-prompt)
+
+---
+
+### [KID-WATCH](https://github.com/giaphutran12/kid-watch) — AI Study Monitor
+> Real-time posture, phone, and gaze detection scored into student engagement metrics.
+
+Production proof-of-concept for Viettel's 700,000 home camera deployment. Combines three computer vision models (MediaPipe Pose, MediaPipe Face, YOLOv8) into a weighted engagement score (0-100%) running at 20-30 FPS. Intelligent temporal smoothing, aspect ratio filtering, confidence thresholds, and session reports with personalized recommendations. Single-file Python app, fully offline, zero cloud dependencies.
+
+**The flex:** `700k camera deployment target` | `3 ML models in real-time` | `20-30 FPS`
+
+`Python` `OpenCV` `MediaPipe` `YOLOv8` `NumPy`
+
+[GitHub](https://github.com/giaphutran12/kid-watch)
+
+---
+
+### BP Portal — Enterprise Mortgage Management
+> AI-powered deal management system for a Canadian mortgage brokerage. 27 staff, 50+ brokers.
+
+289-commit enterprise platform that syncs CRM data, generates proposal PDFs, and analyzes borrower credit profiles using Google Cloud Vertex AI. Background job processing with Inngest handles 5-13MB PDF extraction pipelines. Multi-zone deployment architecture with real-time data synchronization and enterprise-grade infrastructure (SOC 1/2/3, ISO 27001).
+
+**The flex:** `289 commits` | `AI credit analysis` | `multi-zone deployment` | `real-time CRM sync`
+
+`Next.js 16` `React 19` `Supabase` `Inngest` `Google Vertex AI` `Prisma` `Claude API`
+
+*Internal tool — restricted access*
+
+---
+
 ### [Vibe](https://vibe-psy.vercel.app/) — AI Website Builder
 > Describe what you want. Get a full application. Yes, actually.
 
@@ -34,14 +71,14 @@ Multi-agent AI system that generates production-ready React apps from natural la
 
 ---
 
-### [LLM Router](https://llm-router-mauve.vercel.app/) — Smart AI Model Selection
-> Stop overpaying for simple prompts. Route to the right model automatically.
+### PortPal — Shift Tracking for Port Workers
+> Mobile-first PWA for ILWU longshoremen to log shifts, track earnings, and hit income goals.
 
-Analyzes your message intent and routes to the optimal model. Simple chat → free model. Coding → Claude. Complex reasoning → GPT-5. ~100ms routing overhead.
+Production Progressive Web App with 6 shift entry types, real-time earnings dashboard, goal tracking, and analytics. Full authentication system with Supabase, Stripe payment integration, and offline support for use at the port.
 
-`Next.js 14` `TypeScript` `OpenRouter API`
+`Next.js 16` `React 19` `Supabase` `Stripe` `Tailwind CSS` `shadcn/ui`
 
-[Live Demo](https://llm-router-mauve.vercel.app/) • [YouTube Demo](https://youtu.be/Kw9wHT2L9EM)
+*Private — client project*
 
 ---
 
@@ -56,21 +93,14 @@ RAG pipeline with Pinecone vector search (3072D embeddings), Firecrawl for auto-
 
 ---
 
-### [Image Style Transfer](https://webassembly-image-transfer.vercel.app/) — Serverless & Fast
-> Neural style transfer running entirely in your browser. Zero server costs.
+### [LLM Router](https://llm-router-mauve.vercel.app/) — Smart AI Model Selection
+> Stop overpaying for simple prompts. Route to the right model automatically.
 
-5 ONNX art style models compiled to WebAssembly via Rust. No backend needed. 95% server cost reduction.
+Analyzes your message intent and routes to the optimal model. Simple chat → free model. Coding → Claude. Complex reasoning → GPT-5. ~100ms routing overhead.
 
-`Rust` `WebAssembly` `ONNX` `Next.js 14` `wasm-pack`
+`Next.js 14` `TypeScript` `OpenRouter API`
 
-[Live Demo](https://webassembly-image-transfer.vercel.app/)
-
----
-
-### Whiteboard — Douglas College IT
-> Used by 117 IT staff daily. Reduced task delegation time by 75%.
-
-Legacy PHP app I inherited and shipped 11 features to production. Not sexy, but real impact for real users.
+[Live Demo](https://llm-router-mauve.vercel.app/) • [YouTube Demo](https://youtu.be/Kw9wHT2L9EM)
 
 ---
 
@@ -104,11 +134,11 @@ Built an AI call analysis app from scratch. The wild part? None of them knew Nex
 
 **Frontend:** Next.js • React • Tailwind CSS • shadcn/ui
 
-**Backend:** Prisma • tRPC • Inngest • Node.js
+**Backend:** FastAPI • Prisma • tRPC • Inngest • Node.js
 
-**AI/ML:** Claude API • OpenAI • Gemini • Pinecone • RAG • LLM Chaining
+**AI/ML:** Claude API • Google Vertex AI • Gemini • OpenAI • Pinecone • MediaPipe • YOLOv8 • OpenCV • RAG
 
-**Infrastructure:** Vercel • Neon PostgreSQL • Supabase • E2B
+**Infrastructure:** Vercel • Supabase • Neon PostgreSQL • Redis • Stripe • E2B
 
 ---
 
