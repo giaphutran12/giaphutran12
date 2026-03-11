@@ -21,6 +21,19 @@ Real-time community sentiment aggregation with Claude AI analyzing quality posts
 
 ---
 
+### [X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo) — Twitter's Ranking Pipeline, Rebuilt
+> 50K tweets. 338K engagements. Two-Tower neural network. Your personalized feed in milliseconds.
+
+TypeScript reimplementation of X/Twitter's recommendation algorithm. 5-stage ranking pipeline (retrieval → hydration → filtering → scoring → selection) with a Two-Tower neural network trained on 676K samples, exported to ONNX for TypeScript inference. 10 filters, 4 scorers, author diversity enforcement, and user-tunable algorithm weights. Trains in Python, runs in the browser.
+
+**The flex:** `676K training samples` | `3.6KB ONNX model` | `50K→50 tweet ranking` | `6 engagement predictions`
+
+`Next.js 16` `React 19` `Supabase` `PyTorch` `ONNX Runtime` `Tailwind CSS` `Vitest`
+
+[GitHub](https://github.com/giaphutran12/x-recommendation-algo)
+
+---
+
 ### [Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt) — AI Prompt Engineering Toolkit
 > Define prompts, test them, let AI agents analyze failures and improve automatically.
 
