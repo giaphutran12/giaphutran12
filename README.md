@@ -117,6 +117,135 @@ Analyzes your message intent and routes to the optimal model. Simple chat → fr
 
 ---
 
+### [Portfolio](https://edwardtran.ca) — Personal Site
+> 3D WebGL effects, buttery smooth scroll, Sanity CMS — built on darkroom.engineering's Satūs framework.
+
+Custom portfolio with Three.js noise wave effects, GSAP + Framer Motion animations, and Lenis smooth scrolling. Content managed through Sanity CMS so I never touch the code to update projects. Built with Bun, strict TypeScript, and Biome for formatting.
+
+`Next.js 16` `React 19` `Three.js` `GSAP` `Framer Motion` `Sanity CMS` `Tailwind CSS`
+
+[Live Site](https://edwardtran.ca) • [GitHub](https://github.com/giaphutran12/portfolio)
+
+---
+
+### [Viet Bike Scout](https://viet-bike-scout.vercel.app/) — Vietnam Motorbike Price Comparison
+> Compare rental prices across 18 shops in 4 cities. Parallel browser agents scrape them all simultaneously.
+
+Fires TinyFish browser agents at 18+ rental websites across HCMC, Hanoi, Da Nang, and Nha Trang in parallel. Results stream back via SSE as each shop finishes — typically 15–30 seconds for a full city. Live iframe previews show each agent working in real time. 6-hour cache with graceful degradation.
+
+**The flex:** `18 shops` | `4 cities` | `parallel browser agents` | `SSE streaming`
+
+`Next.js 16` `React 19` `TinyFish` `Supabase` `Tailwind CSS` `shadcn/ui`
+
+[Live Demo](https://viet-bike-scout.vercel.app/) • [GitHub](https://github.com/giaphutran12/viet-bike-scout)
+
+---
+
+### [Clinic Book](https://github.com/giaphutran12/clinic-book) — Healthcare Appointment Scraper
+> Find available physio, massage, and chiro appointments across Vancouver in one search.
+
+Scrapes clinic availability across Vancouver, North Vancouver, Burnaby, and Surrey. Server-sent events stream results as each clinic responds. Filter by practitioner type, get direct booking links.
+
+`Next.js 16` `React 19` `TypeScript` `Tailwind CSS` `SSE`
+
+[GitHub](https://github.com/giaphutran12/clinic-book)
+
+---
+
+### [Image Style Transfer](https://webassembly-image-transfer.vercel.app/) — WebGPU + Rust + ONNX
+> Upload an image. Pick an art style. Watch Rust + WebAssembly transform it in your browser.
+
+5 ONNX neural style transfer models (Udnie, Candy, Mosaic, Rain Princess, Pointilism) plus an Adversarial Inception v3 classifier — all running client-side via Rust compiled to WebAssembly. Zero server, zero cloud, zero latency.
+
+**The flex:** `6 ML models` | `100% client-side` | `Rust → WASM` | `zero cloud dependency`
+
+`Next.js 14` `React 18` `Rust` `WebAssembly` `ONNX` `Tailwind CSS`
+
+[Live Demo](https://webassembly-image-transfer.vercel.app/) • [GitHub](https://github.com/giaphutran12/webassemby-rust-image-style-transfer)
+
+---
+
+### [Autoresearch](https://github.com/giaphutran12/autoresearch-macos) — Autonomous AI Research Agent
+> Fork of Karpathy's autoresearch. AI agent modifies a GPT training script, trains for 5 min, keeps or discards, repeats overnight.
+
+Ran Karpathy's autonomous research framework on Apple Silicon (M-series Mac with MPS). The agent ran 22 experiments overnight — modifying architecture, hyperparameters, batch size, and optimizer settings. Best result: **24.5% improvement** over baseline (val_bpb 1.924 → 1.453). Key findings: halving batch size from 65K→16K gave the biggest single win (−7.0%), optimal depth was 3 layers at 10.7M params, and learning rate tuning (MATRIX_LR 0.06) squeezed out the final gains.
+
+**The flex:** `22 experiments overnight` | `24.5% val_bpb improvement` | `10.7M param model` | `Apple Silicon MPS`
+
+`Python` `PyTorch` `MPS (Metal)` `Claude Agents`
+
+[GitHub](https://github.com/giaphutran12/autoresearch-macos)
+
+---
+
+### Velocity — Real Estate Deal Management
+> Deal tracking, appraiser network, and AI-powered analytics for a real estate brokerage.
+
+Full-stack platform with deal pipeline management, appraiser directory with FSA postal code search and Leaflet map clustering, role-based access control, and multi-LLM integration (Claude, AWS Bedrock, Google Gemini). Background job processing with Inngest, PDF report generation, and real-time analytics dashboards.
+
+`Next.js 16` `React 19` `Supabase` `Leaflet` `Inngest` `Claude API` `AWS Bedrock` `Google Gemini`
+
+*Private — client project*
+
+---
+
+### Kolm Dashboard — Sauna Studio Business Intelligence
+> Customer analytics, revenue tracking, and operational insights for Kolm Kontrast sauna studio.
+
+Multi-section BI dashboard with customer funnels (Nivo), revenue metrics, operational reports, and data preprocessing pipelines. CSV import scripts normalize raw business data into Supabase. Advanced table views with TanStack React Table.
+
+`Next.js 16` `React 19` `Supabase` `Nivo` `TanStack React Table` `Tailwind CSS`
+
+*Private — client project*
+
+---
+
+### [Blue Pearl Landing Page](https://blue-pearl-landing-page.vercel.app/) — Mortgage Marketing Site
+> Full marketing site for Blue Pearl Mortgages — debt calculator, Google testimonials, SEO, and lead gen.
+
+Multi-page marketing site with interactive debt calculator, Google Maps integration, testimonial aggregation, blog, and lead capture. SEO-optimized with sitemaps, OG images, Google Ads tracking, and GTM. Email notifications via Resend.
+
+`Next.js 16` `React 19` `Supabase` `Chart.js` `Google Maps` `Resend` `Vercel Analytics`
+
+[Live Site](https://blue-pearl-landing-page.vercel.app/)
+
+---
+
+### [Call Analysis](https://github.com/giaphutran12/claude-call-analysis) — AI Call Intelligence Platform
+> The app I built with 8 BCIT interns. AI-powered call analytics for sales teams.
+
+Broker command center with call recording analysis, prospecting pipeline, booking management, and team competition dashboards. Normalized a nightmare dataset (200 rows × 220K columns of 10-year manual entries) into clean, queryable data. AI-powered insights surface patterns in sales calls.
+
+**The flex:** `8 interns led` | `2nd place ISSP Expo 2025` | `<10ms queries` | `220K→clean columns`
+
+`Next.js 15` `React 19` `TypeScript` `Recharts` `shadcn/ui` `Tailwind CSS`
+
+[GitHub](https://github.com/giaphutran12/claude-call-analysis)
+
+---
+
+### [Whiteboard](https://github.com/giaphutran12/Whiteboard) — Douglas College IT Shift Tracker
+> Live shift-tracking web app for Douglas College's IT department. Used daily by the service desk.
+
+Employee management, shift scheduling, and contact directory with real-time Ajax updates. 4 years of production use (2021–2024) with 10+ version iterations. Supports multi-team assignments, live comment syncing, and status tracking.
+
+`PHP` `MySQL` `jQuery` `Bootstrap` `DataTables` `Ajax`
+
+[GitHub](https://github.com/giaphutran12/Whiteboard)
+
+---
+
+### [Build Launch Iterate](https://buildlaunchiterate.vercel.app/) — Company Website
+> Marketing site for my dev studio. Process, services, and why you should hire us.
+
+Landing page with Framer Motion animations, service comparison, methodology breakdown, and CTAs. Serverless PostgreSQL backend via Neon.
+
+`Next.js 15` `React 19` `Neon PostgreSQL` `Framer Motion` `Tailwind CSS`
+
+[Live Site](https://buildlaunchiterate.vercel.app/) • [GitHub](https://github.com/giaphutran12/buildlaunchiterate)
+
+---
+
 ## 🏆 Leadership
 
 **Led 8 BCIT interns → 2nd place at ISSP Expo 2025**
@@ -145,13 +274,13 @@ Built an AI call analysis app from scratch. The wild part? None of them knew Nex
 
 **Languages:** TypeScript • JavaScript • Python • Rust • SQL • C++ • PHP
 
-**Frontend:** Next.js • React • Tailwind CSS • shadcn/ui
+**Frontend:** Next.js • React • Tailwind CSS • shadcn/ui • Three.js • GSAP • Framer Motion
 
-**Backend:** FastAPI • Prisma • tRPC • Inngest • Node.js
+**Backend:** FastAPI • Prisma • tRPC • Inngest • Node.js • Sanity CMS
 
-**AI/ML:** Claude API • Google Vertex AI • Gemini • OpenAI • Pinecone • MediaPipe • YOLOv8 • OpenCV • RAG
+**AI/ML:** Claude API • Google Vertex AI • Gemini • OpenAI • AWS Bedrock • PyTorch • ONNX Runtime • Pinecone • MediaPipe • YOLOv8 • OpenCV • RAG
 
-**Infrastructure:** Vercel • Supabase • Neon PostgreSQL • Redis • Stripe • E2B
+**Infrastructure:** Vercel • Supabase • Neon PostgreSQL • Redis • Stripe • E2B • WebAssembly
 
 ---
 
