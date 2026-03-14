@@ -84,39 +84,6 @@ Multi-agent AI system that generates production-ready React apps from natural la
 
 ---
 
-### PortPal — Shift Tracking for Port Workers
-> Mobile-first PWA for ILWU longshoremen to log shifts, track earnings, and hit income goals.
-
-Production Progressive Web App with 6 shift entry types, real-time earnings dashboard, goal tracking, and analytics. Full authentication system with Supabase, Stripe payment integration, and offline support for use at the port.
-
-`Next.js 16` `React 19` `Supabase` `Stripe` `Tailwind CSS` `shadcn/ui`
-
-*Private — client project*
-
----
-
-### [AI Customer Support Agent](https://youtu.be/pnrKh72DNo8)
-> Voice-enabled AI that actually knows your company's stuff.
-
-RAG pipeline with Pinecone vector search (3072D embeddings), Firecrawl for auto-scraping company docs, and Vapi.ai for real-time voice conversations. <2s response time.
-
-`Pinecone` `Google Gemini` `Vapi.ai` `Firecrawl` `Next.js 15`
-
-[YouTube Demo](https://youtu.be/pnrKh72DNo8)
-
----
-
-### [LLM Router](https://llm-router-mauve.vercel.app/) — Smart AI Model Selection
-> Stop overpaying for simple prompts. Route to the right model automatically.
-
-Analyzes your message intent and routes to the optimal model. Simple chat → free model. Coding → Claude. Complex reasoning → GPT-5. ~100ms routing overhead.
-
-`Next.js 14` `TypeScript` `OpenRouter API`
-
-[Live Demo](https://llm-router-mauve.vercel.app/) • [YouTube Demo](https://youtu.be/Kw9wHT2L9EM)
-
----
-
 ### [Portfolio](https://edwardtran.ca) — Personal Site
 > 3D WebGL effects, buttery smooth scroll, Sanity CMS — built on darkroom.engineering's Satūs framework.
 
@@ -125,30 +92,6 @@ Custom portfolio with Three.js noise wave effects, GSAP + Framer Motion animatio
 `Next.js 16` `React 19` `Three.js` `GSAP` `Framer Motion` `Sanity CMS` `Tailwind CSS`
 
 [Live Site](https://edwardtran.ca) • [GitHub](https://github.com/giaphutran12/portfolio)
-
----
-
-### [Viet Bike Scout](https://viet-bike-scout.vercel.app/) — Vietnam Motorbike Price Comparison
-> Compare rental prices across 18 shops in 4 cities. Parallel browser agents scrape them all simultaneously.
-
-Fires TinyFish browser agents at 18+ rental websites across HCMC, Hanoi, Da Nang, and Nha Trang in parallel. Results stream back via SSE as each shop finishes — typically 15–30 seconds for a full city. Live iframe previews show each agent working in real time. 6-hour cache with graceful degradation.
-
-**The flex:** `18 shops` | `4 cities` | `parallel browser agents` | `SSE streaming`
-
-`Next.js 16` `React 19` `TinyFish` `Supabase` `Tailwind CSS` `shadcn/ui`
-
-[Live Demo](https://viet-bike-scout.vercel.app/) • [GitHub](https://github.com/giaphutran12/viet-bike-scout)
-
----
-
-### [Clinic Book](https://github.com/giaphutran12/clinic-book) — Healthcare Appointment Scraper
-> Find available physio, massage, and chiro appointments across Vancouver in one search.
-
-Scrapes clinic availability across Vancouver, North Vancouver, Burnaby, and Surrey. Server-sent events stream results as each clinic responds. Filter by practitioner type, get direct booking links.
-
-`Next.js 16` `React 19` `TypeScript` `Tailwind CSS` `SSE`
-
-[GitHub](https://github.com/giaphutran12/clinic-book)
 
 ---
 
@@ -178,71 +121,19 @@ Ran Karpathy's autonomous research framework on Apple Silicon (M-series Mac with
 
 ---
 
-### Velocity — Real Estate Deal Management
-> Deal tracking, appraiser network, and AI-powered analytics for a real estate brokerage.
+### More Projects
 
-Full-stack platform with deal pipeline management, appraiser directory with FSA postal code search and Leaflet map clustering, role-based access control, and multi-LLM integration (Claude, AWS Bedrock, Google Gemini). Background job processing with Inngest, PDF report generation, and real-time analytics dashboards.
-
-`Next.js 16` `React 19` `Supabase` `Leaflet` `Inngest` `Claude API` `AWS Bedrock` `Google Gemini`
-
-*Private — client project*
-
----
-
-### Kolm Dashboard — Sauna Studio Business Intelligence
-> Customer analytics, revenue tracking, and operational insights for Kolm Kontrast sauna studio.
-
-Multi-section BI dashboard with customer funnels (Nivo), revenue metrics, operational reports, and data preprocessing pipelines. CSV import scripts normalize raw business data into Supabase. Advanced table views with TanStack React Table.
-
-`Next.js 16` `React 19` `Supabase` `Nivo` `TanStack React Table` `Tailwind CSS`
-
-*Private — client project*
-
----
-
-### [Blue Pearl Landing Page](https://blue-pearl-landing-page.vercel.app/) — Mortgage Marketing Site
-> Full marketing site for Blue Pearl Mortgages — debt calculator, Google testimonials, SEO, and lead gen.
-
-Multi-page marketing site with interactive debt calculator, Google Maps integration, testimonial aggregation, blog, and lead capture. SEO-optimized with sitemaps, OG images, Google Ads tracking, and GTM. Email notifications via Resend.
-
-`Next.js 16` `React 19` `Supabase` `Chart.js` `Google Maps` `Resend` `Vercel Analytics`
-
-[Live Site](https://blue-pearl-landing-page.vercel.app/)
-
----
-
-### [Call Analysis](https://github.com/giaphutran12/claude-call-analysis) — AI Call Intelligence Platform
-> The app I built with 8 BCIT interns. AI-powered call analytics for sales teams.
-
-Broker command center with call recording analysis, prospecting pipeline, booking management, and team competition dashboards. Normalized a nightmare dataset (200 rows × 220K columns of 10-year manual entries) into clean, queryable data. AI-powered insights surface patterns in sales calls.
-
-**The flex:** `8 interns led` | `2nd place ISSP Expo 2025` | `<10ms queries` | `220K→clean columns`
-
-`Next.js 15` `React 19` `TypeScript` `Recharts` `shadcn/ui` `Tailwind CSS`
-
-[GitHub](https://github.com/giaphutran12/claude-call-analysis)
-
----
-
-### [Whiteboard](https://github.com/giaphutran12/Whiteboard) — Douglas College IT Shift Tracker
-> Live shift-tracking web app for Douglas College's IT department. Used daily by the service desk.
-
-Employee management, shift scheduling, and contact directory with real-time Ajax updates. 4 years of production use (2021–2024) with 10+ version iterations. Supports multi-team assignments, live comment syncing, and status tracking.
-
-`PHP` `MySQL` `jQuery` `Bootstrap` `DataTables` `Ajax`
-
-[GitHub](https://github.com/giaphutran12/Whiteboard)
-
----
-
-### [Build Launch Iterate](https://buildlaunchiterate.vercel.app/) — Company Website
-> Marketing site for my dev studio. Process, services, and why you should hire us.
-
-Landing page with Framer Motion animations, service comparison, methodology breakdown, and CTAs. Serverless PostgreSQL backend via Neon.
-
-`Next.js 15` `React 19` `Neon PostgreSQL` `Framer Motion` `Tailwind CSS`
-
-[Live Site](https://buildlaunchiterate.vercel.app/) • [GitHub](https://github.com/giaphutran12/buildlaunchiterate)
+- 📞 **[Call Analysis](https://github.com/giaphutran12/claude-call-analysis)** — AI call intelligence platform I built with 8 BCIT interns (2nd place ISSP Expo 2025)
+- 🚢 **PortPal** — Mobile-first PWA for ILWU longshoremen to log shifts, track earnings, and hit income goals *(private — client project)*
+- 🎙️ **[AI Customer Support Agent](https://youtu.be/pnrKh72DNo8)** — Voice-enabled RAG with Pinecone, Firecrawl, and Vapi.ai ([demo](https://youtu.be/pnrKh72DNo8))
+- 🔀 **[LLM Router](https://llm-router-mauve.vercel.app/)** — Route prompts to the cheapest model that can handle them ([demo](https://youtu.be/Kw9wHT2L9EM))
+- 🛵 **[Viet Bike Scout](https://viet-bike-scout.vercel.app/)** — Parallel browser agents scrape 18 motorbike rental shops across Vietnam simultaneously
+- 🏥 **[Clinic Book](https://github.com/giaphutran12/clinic-book)** — Scrape physio/massage/chiro availability across Vancouver with SSE streaming
+- 🏠 **Velocity** — Real estate deal management with multi-LLM analytics (Claude, Bedrock, Gemini) *(private — client project)*
+- ♨️ **Kolm Dashboard** — Business intelligence for Kolm Kontrast sauna studio *(private — client project)*
+- 🏦 **[Blue Pearl](https://blue-pearl-landing-page.vercel.app/)** — Mortgage marketing site with debt calculator, Google Maps, and SEO
+- 📋 **[Whiteboard](https://github.com/giaphutran12/Whiteboard)** — Shift tracker for Douglas College IT dept — 4 years of production use (PHP/MySQL)
+- 🚀 **[Build Launch Iterate](https://buildlaunchiterate.vercel.app/)** — My dev studio's marketing site
 
 ---
 
