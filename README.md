@@ -8,7 +8,7 @@ I build AI-powered products that people use. Led 8 interns to 2nd place at ISSP 
 
 ## 🔥 What I've Built
 
-### [Stolk](https://stocktwits-clone-2.vercel.app/) — Twitter for Stocks
+### 📈 [Stolk](https://stocktwits-clone-2.vercel.app/) — Twitter for Stocks
 > Save 10+ hours/week crawling through news. Get AI-powered sentiment analysis instead.
 
 Real-time community sentiment aggregation with Claude AI analyzing quality posts, extracting themes, and summarizing discussions. News sentiment from 200+ articles across 20+ trusted sources.
@@ -21,7 +21,7 @@ Real-time community sentiment aggregation with Claude AI analyzing quality posts
 
 ---
 
-### [X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo) — Twitter's Ranking Pipeline, Rebuilt
+### 🧠 [X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo) — Twitter's Ranking Pipeline, Rebuilt
 > 50K tweets. 338K engagements. Two-Tower neural network. Your personalized feed in milliseconds.
 
 TypeScript reimplementation of X/Twitter's recommendation algorithm. 5-stage ranking pipeline (retrieval → hydration → filtering → scoring → selection) with a Two-Tower neural network trained on 676K samples, exported to ONNX for TypeScript inference. 10 filters, 4 scorers, author diversity enforcement, and user-tunable algorithm weights. Trains in Python, runs in the browser.
@@ -34,7 +34,7 @@ TypeScript reimplementation of X/Twitter's recommendation algorithm. 5-stage ran
 
 ---
 
-### [Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt) — AI Prompt Engineering Toolkit
+### 🔄 [Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt) — AI Prompt Engineering Toolkit
 > Define prompts, test them, let AI agents analyze failures and improve automatically.
 
 Multi-agent system that creates a feedback loop: define prompts → evaluate against test cases → AI analyzes failures → generates improved versions → repeat until 90% success rate. Converts user feedback into synthetic test cases to prevent recurring issues. Full-stack with separate FastAPI backend (async SQLAlchemy, Redis workers) and Next.js frontend.
@@ -45,7 +45,7 @@ Multi-agent system that creates a feedback loop: define prompts → evaluate aga
 
 ---
 
-### [KID-WATCH](https://github.com/giaphutran12/kid-watch) — AI Study Monitor
+### 👁️ [KID-WATCH](https://github.com/giaphutran12/kid-watch) — AI Study Monitor
 > Real-time posture, phone, and gaze detection scored into student engagement metrics.
 
 Production proof-of-concept for Viettel's 700,000 home camera deployment. Combines three computer vision models (MediaPipe Pose, MediaPipe Face, YOLOv8) into a weighted engagement score (0-100%) running at 20-30 FPS. Intelligent temporal smoothing, aspect ratio filtering, confidence thresholds, and session reports with personalized recommendations. Single-file Python app, fully offline, zero cloud dependencies.
@@ -58,7 +58,7 @@ Production proof-of-concept for Viettel's 700,000 home camera deployment. Combin
 
 ---
 
-### BP Portal — Enterprise Mortgage Management
+### 🏢 BP Portal — Enterprise Mortgage Management
 > AI-powered deal management system for a Canadian mortgage brokerage. 27 staff, 50+ brokers.
 
 289-commit enterprise platform that syncs CRM data, generates proposal PDFs, and analyzes borrower credit profiles using Google Cloud Vertex AI. Background job processing with Inngest handles 5-13MB PDF extraction pipelines. Multi-zone deployment architecture with real-time data synchronization and enterprise-grade infrastructure (SOC 1/2/3, ISO 27001).
@@ -71,7 +71,7 @@ Production proof-of-concept for Viettel's 700,000 home camera deployment. Combin
 
 ---
 
-### [Vibe](https://vibe-psy.vercel.app/) — AI Website Builder
+### ✨ [Vibe](https://vibe-psy.vercel.app/) — AI Website Builder
 > Describe what you want. Get a full application. Yes, actually.
 
 Multi-agent AI system that generates production-ready React apps from natural language. Sandboxed E2B environments for safe code execution. Ships complete TypeScript + Tailwind applications.
@@ -84,7 +84,7 @@ Multi-agent AI system that generates production-ready React apps from natural la
 
 ---
 
-### [Portfolio](https://edwardtran.ca) — Personal Site
+### 🎨 [Portfolio](https://edwardtran.ca) — Personal Site
 > 3D WebGL effects, buttery smooth scroll, Sanity CMS — built on darkroom.engineering's Satūs framework.
 
 Custom portfolio with Three.js noise wave effects, GSAP + Framer Motion animations, and Lenis smooth scrolling. Content managed through Sanity CMS so I never touch the code to update projects. Built with Bun, strict TypeScript, and Biome for formatting.
@@ -95,7 +95,7 @@ Custom portfolio with Three.js noise wave effects, GSAP + Framer Motion animatio
 
 ---
 
-### [Image Style Transfer](https://webassembly-image-transfer.vercel.app/) — WebGPU + Rust + ONNX
+### 🦀 [Image Style Transfer](https://webassembly-image-transfer.vercel.app/) — WebGPU + Rust + ONNX
 > Upload an image. Pick an art style. Watch Rust + WebAssembly transform it in your browser.
 
 5 ONNX neural style transfer models (Udnie, Candy, Mosaic, Rain Princess, Pointilism) plus an Adversarial Inception v3 classifier — all running client-side via Rust compiled to WebAssembly. Zero server, zero cloud, zero latency.
@@ -108,7 +108,7 @@ Custom portfolio with Three.js noise wave effects, GSAP + Framer Motion animatio
 
 ---
 
-### [Autoresearch](https://github.com/giaphutran12/autoresearch-macos) — Autonomous AI Research Agent
+### 🧪 [Autoresearch](https://github.com/giaphutran12/autoresearch-macos) — Autonomous AI Research Agent
 > Fork of Karpathy's autoresearch. AI agent modifies a GPT training script, trains for 5 min, keeps or discards, repeats overnight.
 
 Ran Karpathy's autonomous research framework on Apple Silicon (M-series Mac with MPS). The agent ran 22 experiments overnight — modifying architecture, hyperparameters, batch size, and optimizer settings. Best result: **24.5% improvement** over baseline (val_bpb 1.924 → 1.453). Key findings: halving batch size from 65K→16K gave the biggest single win (−7.0%), optimal depth was 3 layers at 10.7M params, and learning rate tuning (MATRIX_LR 0.06) squeezed out the final gains.
