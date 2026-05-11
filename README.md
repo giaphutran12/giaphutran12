@@ -7,6 +7,7 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 ![TypeScript](https://img.shields.io/badge/-TypeScript-181717?style=flat-square&logo=typescript&logoColor=3178C6)
 ![Node.js](https://img.shields.io/badge/-Node.js-181717?style=flat-square&logo=node.js&logoColor=5FA04E)
 ![Codex](assets/badges/codex.svg)
+![Claude Code](https://img.shields.io/badge/-Claude%20Code-181717?style=flat-square&logo=claude&logoColor=D97757)
 ![Next.js](https://img.shields.io/badge/-Next.js-181717?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/-React-181717?style=flat-square&logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-181717?style=flat-square&logo=postgresql&logoColor=8FD7FF)
@@ -31,7 +32,7 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 - Growth + software engineering intern at **TinyFish**, building and posting about agent workflows.
 - Helped grow **[tinyfish-io/tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)** from ~900 stars to 1.9k+ stars and 200+ forks.
 - Building **Daily Delta**, an app for VCs to track startups to invest in.
-- Building with **Codex**, TypeScript, Node.js, Postgres, and Supabase.
+- Building with **Codex**, Claude Code, TypeScript, Node.js, Postgres, and Supabase.
 - Coaching small teams from rough idea to working product.
 - Keeping projects useful, measurable, and boring where boring is good.
 
