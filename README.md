@@ -18,7 +18,7 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ## Start Here
 
-- 🏎️ **[Rustify Car](https://github.com/giaphutran12/rustify-car)** - Proof-driven JS/TS hot-path migration to Rust.
+- 🏎️ **[Rustify](https://github.com/giaphutran12/rustify)** - Proof-driven JS/TS hot-path migration to Rust.
 - 📈 **[Stolk](https://stocktwits-clone-2.vercel.app/)** - AI sentiment and market discussion analysis for stock communities.
 - 🧠 **[X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo)** - TypeScript rebuild of X/Twitter-style ranking with a Two-Tower model.
 - 🔄 **[Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt)** - Prompt evaluation loop where agents analyze failures and improve prompts.
