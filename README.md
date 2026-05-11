@@ -18,12 +18,12 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ## Start Here
 
-- **[Rustify Codex](https://github.com/giaphutran12/rustify-codex)** - Codex-powered, proof-driven JS/TS hot-path migration to Rust.
-- **[Stolk](https://stocktwits-clone-2.vercel.app/)** - AI sentiment and market discussion analysis for stock communities.
-- **[X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo)** - TypeScript rebuild of X/Twitter-style ranking with a Two-Tower model.
-- **[Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt)** - Prompt evaluation loop where agents analyze failures and improve prompts.
-- **[Vibe](https://vibe-psy.vercel.app/)** - AI app builder using sandboxed code execution.
-- **[Portfolio](https://edwardtran.ca)** - My personal site.
+- 🏎️ **[Rustify Car](https://github.com/giaphutran12/rustify-car)** - Proof-driven JS/TS hot-path migration to Rust.
+- 📈 **[Stolk](https://stocktwits-clone-2.vercel.app/)** - AI sentiment and market discussion analysis for stock communities.
+- 🧠 **[X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo)** - TypeScript rebuild of X/Twitter-style ranking with a Two-Tower model.
+- 🔄 **[Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt)** - Prompt evaluation loop where agents analyze failures and improve prompts.
+- ✨ **[Vibe](https://vibe-psy.vercel.app/)** - AI app builder using sandboxed code execution.
+- 🎨 **[Portfolio](https://edwardtran.ca)** - My personal site.
 
 ## Current Work
 
@@ -34,12 +34,12 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ## More Projects
 
-- **[Call Analysis](https://github.com/giaphutran12/claude-call-analysis)** - AI call intelligence platform built with 8 BCIT interns; 2nd place at ISSP Expo 2025.
-- **[KID-WATCH](https://github.com/giaphutran12/kid-watch)** - Offline posture, phone, and gaze detection for student engagement.
-- **[Image Style Transfer](https://webassembly-image-transfer.vercel.app/)** - Rust + WebAssembly + ONNX style transfer in the browser.
-- **[Viet Bike Scout](https://viet-bike-scout.vercel.app/)** - Parallel browser agents scraping Vietnam motorbike rentals.
-- **[Clinic Book](https://github.com/giaphutran12/clinic-book)** - Availability scraper for Vancouver clinics with SSE streaming.
-- **[Whiteboard](https://github.com/giaphutran12/Whiteboard)** - Shift tracker used by Douglas College IT for 4 years.
+- 📞 **[Call Analysis](https://github.com/giaphutran12/claude-call-analysis)** - AI call intelligence platform built with 8 BCIT interns; 2nd place at ISSP Expo 2025.
+- 👁️ **[KID-WATCH](https://github.com/giaphutran12/kid-watch)** - Offline posture, phone, and gaze detection for student engagement.
+- 🦀 **[Image Style Transfer](https://webassembly-image-transfer.vercel.app/)** - Rust + WebAssembly + ONNX style transfer in the browser.
+- 🛵 **[Viet Bike Scout](https://viet-bike-scout.vercel.app/)** - Parallel browser agents scraping Vietnam motorbike rentals.
+- 🏥 **[Clinic Book](https://github.com/giaphutran12/clinic-book)** - Availability scraper for Vancouver clinics with SSE streaming.
+- 📋 **[Whiteboard](https://github.com/giaphutran12/Whiteboard)** - Shift tracker used by Douglas College IT for 4 years.
 
 ## GitHub Activity
 
