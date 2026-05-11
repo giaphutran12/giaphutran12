@@ -6,10 +6,10 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-181717?style=flat-square&logo=typescript&logoColor=3178C6)
 ![Node.js](https://img.shields.io/badge/-Node.js-181717?style=flat-square&logo=node.js&logoColor=5FA04E)
-![Codex CLI](https://img.shields.io/badge/-Codex%20CLI-181717?style=flat-square&logo=gnubash&logoColor=10A37F)
+![Codex](assets/badges/codex.svg)
 ![Next.js](https://img.shields.io/badge/-Next.js-181717?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/-React-181717?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-181717?style=flat-square&logo=postgresql&logoColor=4169E1)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-181717?style=flat-square&logo=postgresql&logoColor=8FD7FF)
 ![Supabase](https://img.shields.io/badge/-Supabase-181717?style=flat-square&logo=supabase&logoColor=3FCF8E)
 ![Rust](https://img.shields.io/badge/-Rust-181717?style=flat-square&logo=rust&logoColor=DEA584)
 ![Python](https://img.shields.io/badge/-Python-181717?style=flat-square&logo=python&logoColor=3776AB)
@@ -31,7 +31,7 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 - Growth + software engineering intern at **TinyFish**, building and posting about agent workflows.
 - Helped grow **[tinyfish-io/tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)** from ~900 stars to 1.9k+ stars and 200+ forks.
 - Building **Daily Delta**, an app for VCs to track startups to invest in.
-- Building with **Codex CLI**, TypeScript, Node.js, Postgres, and Supabase.
+- Building with **Codex**, TypeScript, Node.js, Postgres, and Supabase.
 - Coaching small teams from rough idea to working product.
 - Keeping projects useful, measurable, and boring where boring is good.
 
