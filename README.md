@@ -10,7 +10,7 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=000000)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=000000)
+![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square)
 ![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -46,8 +46,8 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 ![GitHub Contribution Graph](https://ghchart.rshah.org/giaphutran12)
 
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=giaphutran12&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=giaphutran12&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=giaphutran12&show_icons=true&hide_border=true&count_private=true&theme=transparent" alt="GitHub stats" />
+  <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=giaphutran12&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
 </p>
 
 ## Connect
