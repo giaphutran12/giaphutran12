@@ -4,21 +4,21 @@
 
 I build AI-powered apps, developer tools, and internal systems that ship. Currently building at [Build Launch Iterate](https://buildlaunchiterate.ca).
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Codex](https://img.shields.io/badge/-Codex-121212?style=flat-square&logo=openai&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=000000)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-181717?style=flat-square&logo=typescript&logoColor=3178C6)
+![Node.js](https://img.shields.io/badge/-Node.js-181717?style=flat-square&logo=node.js&logoColor=5FA04E)
+![Codex CLI](https://img.shields.io/badge/-Codex%20CLI-181717?style=flat-square&logo=gnubash&logoColor=10A37F)
+![Next.js](https://img.shields.io/badge/-Next.js-181717?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/-React-181717?style=flat-square&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-181717?style=flat-square&logo=postgresql&logoColor=4169E1)
 ![Supabase](https://img.shields.io/badge/-Supabase-181717?style=flat-square&logo=supabase&logoColor=3FCF8E)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-181717?style=flat-square&logo=rust&logoColor=DEA584)
+![Python](https://img.shields.io/badge/-Python-181717?style=flat-square&logo=python&logoColor=3776AB)
 
 > I like practical AI: agents, automations, fast full-stack products, and tools that remove work instead of adding theater.
 
 ## Start Here
 
-- 🏎️ **[Rustify](https://github.com/giaphutran12/rustify)** - Proof-driven JS/TS hot-path migration to Rust.
+- 🦀 **[Rustify](https://github.com/giaphutran12/rustify)** - Proof-driven JS/TS hot-path migration to Rust.
 - 📈 **[Stolk](https://stocktwits-clone-2.vercel.app/)** - AI sentiment and market discussion analysis for stock communities.
 - 🧠 **[X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo)** - TypeScript rebuild of X/Twitter-style ranking with a Two-Tower model.
 - 🔄 **[Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt)** - Prompt evaluation loop where agents analyze failures and improve prompts.
@@ -28,7 +28,10 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 ## Current Work
 
 - Shipping AI workflows and mortgage tooling at **Build Launch Iterate**.
-- Building with **Codex**, TypeScript, Node.js, Postgres, and Supabase.
+- Growth + software engineering intern at **TinyFish**, building and posting about agent workflows.
+- Helped grow **[tinyfish-io/tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)** from ~900 stars to 1.9k+ stars and 200+ forks.
+- Building **Daily Delta**, an app for VCs to track startups to invest in.
+- Building with **Codex CLI**, TypeScript, Node.js, Postgres, and Supabase.
 - Coaching small teams from rough idea to working product.
 - Keeping projects useful, measurable, and boring where boring is good.
 
@@ -52,6 +55,6 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/edwardtran123)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=About.me&logoColor=white)](https://edwardtran.ca)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:giaphutran012@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-181717?style=flat-square&labelColor=181717&color=181717)](https://linkedin.com/in/edwardtran123)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-181717?style=flat-square&logo=googlechrome&logoColor=white)](https://edwardtran.ca)
+[![Email](https://img.shields.io/badge/-Email-181717?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:giaphutran012@gmail.com)
