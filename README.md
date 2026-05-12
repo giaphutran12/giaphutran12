@@ -85,5 +85,5 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 ## Connect
 
 [![LinkedIn](assets/badges/linkedin.svg)](https://linkedin.com/in/edwardtran123)
-[![Portfolio](assets/badges/portfolio.svg)](https://edwardtran.ca)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-181717?style=flat-square&labelColor=181717&color=181717)](https://edwardtran.ca)
 [![Email](https://img.shields.io/badge/-Email-181717?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:giaphutran012@gmail.com)
