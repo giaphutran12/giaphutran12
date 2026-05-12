@@ -19,31 +19,59 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ## Start Here
 
-- 🦀 **[Rustify](https://github.com/giaphutran12/rustify)** - Proof-driven JS/TS hot-path migration to Rust.
-- 📈 **[Stolk](https://stocktwits-clone-2.vercel.app/)** - AI sentiment and market discussion analysis for stock communities.
+- 🦀 **[Rustify](https://github.com/giaphutran12/rustify)** - proof-driven JS/TS hot-path migration to Rust.
+- 📈 **[Stolk](https://stocktwits-clone-2.vercel.app/)** - AI market sentiment and stock-community intelligence.
 - 🧠 **[X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo)** - TypeScript rebuild of X/Twitter-style ranking with a Two-Tower model.
-- 🔄 **[Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt)** - Prompt evaluation loop where agents analyze failures and improve prompts.
-- ✨ **[Vibe](https://vibe-psy.vercel.app/)** - AI app builder using sandboxed code execution.
-- 🎨 **[Portfolio](https://edwardtran.ca)** - My personal site.
+- ✨ **[Vibe](https://vibe-psy.vercel.app/)** - prompt-to-app builder with sandboxed code execution.
+- 🔄 **[Self-Improving Prompt](https://github.com/giaphutran12/self-improving-prompt)** - eval loop where agents analyze failures and improve prompts.
+- 🎨 **[Portfolio](https://edwardtran.ca)** - personal site, projects, writing, and work history.
 
 ## Current Work
 
-- Shipping AI workflows and mortgage tooling at **Build Launch Iterate**.
-- Growth + software engineering intern at **TinyFish**, building and posting about agent workflows.
-- Helped grow **[tinyfish-io/tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)** from ~900 stars to 1.9k+ stars and 200+ forks.
-- Building **Daily Delta**, an app for VCs to track startups to invest in.
-- Building with **Codex**, Claude Code, TypeScript, Node.js, Postgres, and Supabase.
-- Coaching small teams from rough idea to working product.
-- Keeping projects useful, measurable, and boring where boring is good.
+- 🧭 **TinyFish** - growth + software engineering intern, building and posting about agent workflows.
+- 📚 **[tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)** - helped grow the cookbook from ~900 stars to 1.9k+ stars and 200+ forks.
+- 🦞 **[OpenClaw TinyFish plugin](https://github.com/openclaw/openclaw/pull/58645)** - TinyFish landed as a bundled browser automation plugin.
+- 💸 **Daily Delta** - app for VCs to track startups to invest in.
+- 🏦 **Build Launch Iterate** - shipping AI workflows, mortgage tooling, and internal systems.
+- 🧰 **Agent stack** - building with Codex, Claude Code, TypeScript, Node.js, Postgres, and Supabase.
 
-## More Projects
+## Current Projects
 
-- 📞 **[Call Analysis](https://github.com/giaphutran12/claude-call-analysis)** - AI call intelligence platform built with 8 BCIT interns; 2nd place at ISSP Expo 2025.
-- 👁️ **[KID-WATCH](https://github.com/giaphutran12/kid-watch)** - Offline posture, phone, and gaze detection for student engagement.
+- 🕵️ **[Tiny Detective](https://github.com/giaphutran12/tiny-detective)** - TinyFish-powered research and browsing agent experiments.
+- 📝 **[NotionCode CLI](https://github.com/giaphutran12/notioncode-cli)** - CLI tooling for Notion-native coding workflows.
+- 🛵 **[Viet Bike Scout](https://viet-bike-scout.vercel.app/)** - parallel browser agents scraping Vietnam motorbike rentals.
+- 🏥 **[Clinic Book](https://github.com/giaphutran12/clinic-book)** - availability scraper for Vancouver clinics with SSE streaming.
+- 👁️ **[KID-WATCH](https://github.com/giaphutran12/kid-watch)** - offline posture, phone, and gaze detection for student engagement.
 - 🦀 **[Image Style Transfer](https://webassembly-image-transfer.vercel.app/)** - Rust + WebAssembly + ONNX style transfer in the browser.
-- 🛵 **[Viet Bike Scout](https://viet-bike-scout.vercel.app/)** - Parallel browser agents scraping Vietnam motorbike rentals.
-- 🏥 **[Clinic Book](https://github.com/giaphutran12/clinic-book)** - Availability scraper for Vancouver clinics with SSE streaming.
-- 📋 **[Whiteboard](https://github.com/giaphutran12/Whiteboard)** - Shift tracker used by Douglas College IT for 4 years.
+
+## Internal / Client Work
+
+- 🏢 **BluePearl Portal** (private) - mortgage brokerage CRM, reporting, proposal PDFs, and broker workflows.
+- 🌊 **Blue Pearl Landing** (private) - mortgage marketing site with calculators, SEO, and conversion flows.
+- 📊 **Pipeline Dashboard** (private) - executive pipeline reporting for mortgage operations.
+- 🏠 **Velocity** (private) - real estate deal management and multi-LLM analytics.
+- 🚢 **PortPal** (private) - PWA for longshoremen to log shifts, track earnings, and hit income goals.
+- ♨️ **Kolm Dashboard** (private) - business intelligence for a sauna studio.
+- 📞 **Call Analysis** (private) - AI call intelligence platform built with 8 BCIT interns; 2nd place at ISSP Expo 2025.
+- ⛪ **TNTT CRM CMS** (private) - CRM/CMS prototype for youth-program operations.
+
+## Open Source / Tools
+
+- 🧱 **[codex-gstack](https://github.com/giaphutran12/codex-gstack)** - my Codex-flavored fork of a multi-skill agent workflow stack.
+- 🧠 **[edward-agent-stack](https://github.com/giaphutran12/edward-agent-stack)** - agent-native setup and rules for my Codex intern workflow.
+- 🗺️ **[repowise](https://github.com/giaphutran12/repowise)** - forked codebase intelligence for AI-assisted engineering teams.
+- 🐟 **[tinyfish-cookbook2](https://github.com/giaphutran12/tinyfish-cookbook2)** - TinyFish sample apps and recipes fork.
+- 🐚 **[skills](https://github.com/giaphutran12/skills)** - TinyFish web-agent skill fork.
+- 🧪 **[opencode-manage-memory-leak](https://github.com/giaphutran12/opencode-manage-memory-leak)** - shell repro/investigation for an opencode memory issue.
+
+## Legacy Work
+
+- 📋 **[Whiteboard](https://github.com/giaphutran12/Whiteboard)** - shift tracker used by Douglas College IT for 4 years.
+- 🤖 **[AI Customer Support Agent](https://github.com/giaphutran12/ai-customer-support-agent-aven)** - voice/RAG customer-support prototype.
+- 🧭 **[LLM Router](https://github.com/giaphutran12/llm-router)** - route prompts to the cheapest model that can handle them.
+- 🧬 **[Autoresearch macOS](https://github.com/giaphutran12/autoresearch-macos)** - fork of Karpathy's autonomous research loop adapted for Apple Silicon.
+- 🧾 **[Prisma Docs 6.15](https://github.com/giaphutran12/prisma-docs-6.15)** - archived Prisma 6.15 docs reference.
+- 🖥️ **[my-portfolio](https://github.com/giaphutran12/my-portfolio)** - earlier portfolio build.
 
 ## GitHub Activity
 
