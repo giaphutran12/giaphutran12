@@ -1,6 +1,6 @@
 # Hi, I'm Edward
 
-**AI engineer. Product builder. Codex power user.**
+** I'm an AI/Product Engineer. Codex > Claude **
 
 I build AI-powered apps, developer tools, and internal systems that ship. Currently building at [Build Launch Iterate](https://buildlaunchiterate.ca).
 
