@@ -1,0 +1,37 @@
+name: Recently shipped
+
+on:
+  schedule:
+    - cron: "40 0 * * *"
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/recently-shipped.yml, scripts/recently_shipped.py]
+
+permissions:
+  contents: write
+
+# Shared with the koi workflow so the two nightly commits never race.
+concurrency: profile
+
+jobs:
+  recently-shipped:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Rewrite the recently shipped list
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/recently_shipped.py
+      - name: Commit the README if it changed
+        shell: bash
+        run: |
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "The list is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "readme: refresh recently shipped"
+          git pull --quiet --rebase
+          git push --quiet
