@@ -75,6 +75,10 @@ I build AI-powered apps, developer tools, and internal systems that ship. Curren
 
 ## GitHub Activity
 
+<p align="center">
+  <img src="koi/koi.gif" width="256" alt="My koi, redrawn every night from the day's GitHub activity" />
+</p>
+
 ![GitHub Contribution Graph](https://ghchart.rshah.org/giaphutran12)
 
 <p>
