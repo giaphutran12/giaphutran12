@@ -1,0 +1,114 @@
+{
+  "user": "giaphutran12",
+  "readme": "README.md",
+  "out": "assets/swarm",
+  "layout": {
+    "style": "markdown",
+    "portraitWidth": "50%",
+    "columnWidth": "44%",
+    "stagger": 0.12,
+    "table": true
+  },
+  "cursors": {
+    "Claude": "#d97757",
+    "Codex": "#10a37f",
+    "JARVIS": "#4fc3f7",
+    "Opus": "#c792ea",
+    "Sonnet": "#f78c6c",
+    "Haiku": "#ffcb6b",
+    "Pi": "#82aaff",
+    "Jev": "#c3e88d",
+    "Tower": "#8b949e"
+  },
+  "portrait": {
+    "ascii": "assets/portrait.txt",
+    "title": "giaphutran12 / README.md",
+    "whoami": "Edward Tran / ships with agents",
+    "alt": "Edward Tran on the steps of Saint Joseph's Oratory, rendered in ASCII",
+    "divider": false
+  },
+  "profile": {
+    "avatar": "assets/avatar.png",
+    "name": "Edward Tran",
+    "handle": "@giaphutran12",
+    "role": "Software engineer, Build Launch Iterate",
+    "href": "https://edwardtran.ca"
+  },
+  "about": {
+    "file": "about.md",
+    "title": "I build AI tools that do real work.",
+    "lines": [
+      "Mostly by directing coding agents.",
+      "Proudest of Tower: the operating system Build Launch Iterate runs on.",
+      "Every feature on one backend: web app, CLI, Slack and MCP."
+    ]
+  },
+  "projects": {
+    "title": "🛠️ Built and shipped",
+    "items": [
+      {
+        "icon": "🗼",
+        "name": "Tower",
+        "desc": "Tickets, docs, chat, mail, calendar and JARVIS on one backend",
+        "tag": "private, happy to demo"
+      },
+      {
+        "icon": "🐟",
+        "name": "tinyfish-cookbook",
+        "desc": "Helped take it from ~900 to 1.9k+ stars as an intern",
+        "href": "https://github.com/tinyfish-io/tinyfish-cookbook"
+      },
+      {
+        "icon": "🦞",
+        "name": "OpenClaw",
+        "desc": "Got TinyFish merged in as a bundled browser plugin",
+        "href": "https://github.com/openclaw/openclaw/pull/58645"
+      },
+      {
+        "icon": "🦀",
+        "name": "Rustify",
+        "desc": "Moves JS/TS hot paths to Rust, with proof nothing changed",
+        "href": "https://github.com/giaphutran12/rustify"
+      },
+      {
+        "icon": "📞",
+        "name": "Call Analysis",
+        "desc": "AI call intelligence, built with 8 BCIT interns",
+        "tag": "2nd at ISSP Expo 2025"
+      },
+      {
+        "icon": "📋",
+        "name": "Whiteboard",
+        "desc": "The shift tracker Douglas College IT used for 4 years",
+        "href": "https://github.com/giaphutran12/Whiteboard"
+      }
+    ]
+  },
+  "toolkit": {
+    "title": "🧰 Toolkit",
+    "items": [
+      "TypeScript",
+      "Next.js",
+      "Postgres",
+      "Supabase",
+      "AI SDK",
+      "Mastra",
+      "Railway",
+      "Rust",
+      "Claude Code",
+      "Codex"
+    ]
+  },
+  "timeline": {
+    "title": "timeline / what I shipped lately",
+    "footer": "rebuilt automatically by readme-swarm",
+    "href": "https://github.com/giaphutran12?tab=repositories",
+    "max": 8,
+    "days": 90,
+    "exclude": ["giaphutran12"],
+    "fallback": [
+      { "repo": "edward-agent-stack", "message": "rules: raw SQL at the call site, no wrappers" },
+      { "repo": "rizzcode", "message": "List RizzCode on the Mythos marketplace" }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+name: README swarm
+
+# Rebuilds the animated header (portrait, cards, commit timeline) with
+# readme-swarm. Profile edits rebuild at once; new public commits are picked up
+# every three hours, and the job only commits when something changed.
+on:
+  schedule:
+    - cron: "10 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - swarm.config.json
+      - assets/portrait.txt
+      - assets/avatar.png
+      - .github/workflows/swarm.yml
+
+permissions:
+  contents: write
+
+# Shared with the koi and recently shipped workflows so README commits never race.
+concurrency: profile
+
+jobs:
+  swarm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Pinned to the v1.0.3 commit: a third-party action with write access.
+      - uses: arijit-debug/readme-swarm@c6f1c2a6ac1b6b065c98c3075c8e3615a01972a2
+      - name: Commit the swarm if it changed
+        shell: bash
+        run: |
+          git add README.md assets/swarm
+          if git diff --cached --quiet; then
+            echo "The swarm is unchanged; nothing to commit."
+            exit 0
+          fi
+          echo "Changed: $(git diff --cached --name-only | wc -l | tr -d ' ') files"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "readme: rebuild the swarm"
+          git pull --quiet --rebase
+          git push --quiet
