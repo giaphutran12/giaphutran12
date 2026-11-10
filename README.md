@@ -6,7 +6,7 @@
 </tr>
 </table>
 
-<p align="center"><a href="https://github.com/giaphutran12?tab=repositories"><img src="./assets/swarm/timeline.svg?v=7b766424" alt="Editor timeline of recent commits: portfolio: docs: fix Lenis mounting claim and tighten nav scroll-lock/focus wording; rizzcode: feat(mythos): list RizzCode on the Mythos marketplace (#26); empirio-clone: feat: focus first play on three business decisions (#1); laya-search: Record public deployment; edward-agent-stack: rules: raw SQL at the call site, no wrappers; only the zero-round-trip RLS transaction helper; brand-guide-generator: Backlog: voiceover re-take in progress; brand-guide-generator: Position against curated DESIGN.md collections; backlog DESIGN.md export idea; brand-guide-generator: Export DESIGN.md for any brand" width="100%" /></a></p>
+<p align="center"><a href="https://github.com/giaphutran12?tab=repositories"><img src="./assets/swarm/timeline.svg?v=d6f681ef" alt="Editor timeline of recent commits: portfolio: docs: fix Lenis mounting claim and tighten nav scroll-lock/focus wording; rizzcode: feat(mythos): list RizzCode on the Mythos marketplace (#26); empirio-clone: feat: focus first play on three business decisions (#1); laya-search: Record public deployment; edward-agent-stack: rules: raw SQL at the call site, no wrappers; only the zero-round-trip RLS transaction helper; brand-guide-generator: Backlog: voiceover re-take in progress; brand-guide-generator: Position against curated DESIGN.md collections; backlog DESIGN.md export idea; brand-guide-generator: Export DESIGN.md for any brand" width="100%" /></a></p>
 <!-- SWARM:END -->
 
 ## Tower
