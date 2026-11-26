@@ -10,7 +10,7 @@ Check out [my site](https://edwardtran.ca) or [LinkedIn](https://linkedin.com/in
 
 ### Products
 
-- **Tower** — The app our whole company runs on. Tickets, docs, chat, mail and calendar, with AI agents as teammates (private, ask me for a demo)
+- **Tower** — Linear, Notion, Slack and Gmail in one agent-native app. Our team and our AI agents work in it every day, with shared memory and JARVIS to ask anything (private, ask me for a demo)
 - **[BigSet](https://github.com/tinyfish-io/bigset-oss)** — Type one sentence, get a live dataset researched by web agents (TinyFish, 1.7k+ stars)
 - **[Brand Guide Generator](https://github.com/giaphutran12/brand-guide-generator)** — Paste a URL, get the company's logo, colours, fonts and voice
 
