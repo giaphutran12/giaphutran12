@@ -2,39 +2,31 @@
 
 ##### Click to play DOOM in my GitHub README
 
-# About Me:
-I'm Edward. I lead a team of 8 engineers at [Build Launch Iterate](https://buildlaunchiterate.ca), and I built the software our company runs on.
+Lead engineer at [Build Launch Iterate](https://buildlaunchiterate.ca), team of 8. Coding agents write most of my code; I direct them and own what ships.
 
-Coding agents write most of my code. I direct them and own what ships. That's the 14,000+ contributions below.
+Check out [my site](https://edwardtran.ca) or [LinkedIn](https://linkedin.com/in/edwardtran123)
 
-### Currently building:
+## Current Projects
 
-- **Tower**: one app for a company's tickets, docs, chat, mail and calendar, where AI agents work next to the team as real teammates. Our whole company runs on it.
-  - It watches how each engineer works with AI, and coaches them to get better at it.
-  - Ask me for a demo.
-- **[BigSet](https://github.com/tinyfish-io/bigset-oss)** (TinyFish, open source, 1.7k stars): type one sentence, get a live dataset that web agents research for you. I'm making it run on the Claude or ChatGPT plan you already pay for.
+### Products
 
-Prev: intern @ [TinyFish](https://tinyfish.ai). I wrote the first version of the TinyFish browser plugin that now ships in OpenClaw (395k stars); the [merged pull request](https://github.com/openclaw/openclaw/pull/58645) builds on it. 8 merged pull requests in [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) (2.3k stars). Before that, v4 of [Whiteboard](https://github.com/giaphutran12/Whiteboard), the shift tracker Douglas College IT used for 4 years.
+- **Tower** — The app our whole company runs on. Tickets, docs, chat, mail and calendar, with AI agents as teammates (private, ask me for a demo)
+- **[BigSet](https://github.com/tinyfish-io/bigset-oss)** — Type one sentence, get a live dataset researched by web agents (TinyFish, 1.7k+ stars)
+- **[Brand Guide Generator](https://github.com/giaphutran12/brand-guide-generator)** — Paste a URL, get the company's logo, colours, fonts and voice
 
-Also: I fine-tuned Qwen to [predict what Trump says next](https://github.com/giaphutran12/predict-trump), caught my own benchmark leaking the future, and published that an off-the-shelf model still won. I [ported Garry Tan's gstack to Codex](https://github.com/giaphutran12/codex-gstack). And the DOOM above is real: [4,492 linked screenshots](https://github.com/giaphutran12/doom-readme), no JavaScript, built on [Kuber Mehta's DoomMe](https://github.com/Kuberwastaken/DoomMe).
+### Open Source
 
-### How I got here:
+- **[TinyFish for OpenClaw](https://github.com/openclaw/openclaw/pull/58645)** — Wrote the first version of the browser plugin that ships in OpenClaw (395k+ stars)
+- **[TinyFish Cookbook](https://github.com/tinyfish-io/tinyfish-cookbook)** — Apps that automate what scrapers can't (2.3k+ stars)
+- **[codex-gstack](https://github.com/giaphutran12/codex-gstack)** — Garry Tan's gstack, ported to Codex
 
-- Before 2025: a 60-hour Unreal Engine 5 C++ course, and PHP for Douglas College IT.
-- July 2025: I learned TypeScript from an 11-hour "clone Lovable" tutorial. It took me about 60 hours, line by line ([68 commits](https://github.com/giaphutran12/vibe-saas)).
-- 2026: built the software my company runs on, and lead a team of 8.
+### Benchmarks & Shenanigans
 
-### Follow along to stay in the loop :)
+- **[Predict Trump](https://github.com/giaphutran12/predict-trump)** — Fine-tuned Qwen to predict what Trump says next. An off-the-shelf model still won
+- **[DOOM in a README](https://github.com/giaphutran12/doom-readme)** — The game up top. 4,492 screenshots, zero JavaScript
+- **[X Recommendation Algorithm](https://github.com/giaphutran12/x-recommendation-algo)** — X's feed algorithm, rebuilt with a two-tower model
 
-My portfolio, if you want the long version - https://edwardtran.ca
+### Everything Else
 
-### Fun Fact:
-You're visitor #
-
-![Profile views](https://komarev.com/ghpvc/?username=giaphutran12&style=flat-square&color=5E936C)
-
-to my profile. WILD!!!
-
-# Find Me On:
-
-[Website](https://edwardtran.ca) | [LinkedIn](https://linkedin.com/in/edwardtran123) | [Email](mailto:giaphutran012@gmail.com)
+- **[Whiteboard](https://github.com/giaphutran12/Whiteboard)** — The shift tracker Douglas College IT ran on for 4 years
+- **[Lovable clone](https://github.com/giaphutran12/vibe-saas)** — How I learned TypeScript: an 11-hour tutorial that took me 60 hours, line by line
