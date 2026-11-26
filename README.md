@@ -1,4 +1,4 @@
-[![DOOM](https://raw.githubusercontent.com/giaphutran12/doom-readme/main/static/doom-demo.gif)](https://github.com/giaphutran12/doom-readme/blob/main/game/-416_224_0.md)
+<a href="https://github.com/giaphutran12/doom-readme/blob/main/game/-416_224_0.md"><img src="https://raw.githubusercontent.com/giaphutran12/doom-readme/main/static/doom-demo-640.gif" alt="DOOM" width="100%"></a>
 
 ##### Click to play DOOM in my GitHub README
 
