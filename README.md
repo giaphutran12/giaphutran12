@@ -2,7 +2,7 @@
 
 ##### Click to play DOOM in my GitHub README
 
-Lead engineer at [Build Launch Iterate](https://buildlaunchiterate.ca), team of 8. Coding agents write most of my code; I direct them and own what ships.
+Engineering lead at [Build Launch Iterate](https://buildlaunchiterate.ca), team of 8. My job is making sure they ship: the tools, the agent setup and the observability we all work in. Coding agents write most of my own code; I direct them and own what ships.
 
 Check out [my site](https://edwardtran.ca) or [LinkedIn](https://linkedin.com/in/edwardtran123)
 
@@ -11,8 +11,9 @@ Check out [my site](https://edwardtran.ca) or [LinkedIn](https://linkedin.com/in
 ### Products
 
 - **Tower** — Linear, Notion, Slack and Gmail in one agent-native app. Our team and our AI agents work in it every day, with shared memory and JARVIS to ask anything (private, ask me for a demo)
+- **PearlPortal** — The mortgage platform Blue Pearl's brokers run on: CRM, loan proposals and AML checks in one app (private)
 - **[BigSet](https://github.com/tinyfish-io/bigset-oss)** — Type one sentence, get a live dataset researched by web agents (TinyFish, 1.7k+ stars)
-- **[Brand Guide Generator](https://github.com/giaphutran12/brand-guide-generator)** — Paste a URL, get the company's logo, colours, fonts and voice
+- **[RizzCode](https://github.com/giaphutran12/rizzcode)** — LeetCode for dating. Practise real conversations, level up your social skills
 
 ### Open Source
 
