@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/giaphutran12/doom-readme/blob/main/game/-416_224_0.md"><img src="https://raw.githubusercontent.com/giaphutran12/doom-readme/main/static/doom-preview.gif" alt="Doom running through Freedoom E1M1. Click to play" width="640"></a>
+<a href="https://github.com/giaphutran12/doom-readme/blob/main/game/-416_224_0.md"><img src="https://raw.githubusercontent.com/giaphutran12/doom-readme/main/static/doom-demo.gif" alt="Doom gameplay: shotgun fights through Freedoom E1M1. Click to play" width="640"></a>
 </p>
 
 <h3 align="center"><a href="https://github.com/giaphutran12/doom-readme/blob/main/game/-416_224_0.md">Click to play Doom, inside GitHub</a></h3>
