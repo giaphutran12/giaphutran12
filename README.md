@@ -2,7 +2,7 @@
 
 ##### Click to play DOOM in my GitHub README
 
-Engineering lead at [Build Launch Iterate](https://buildlaunchiterate.ca), team of 8. I was the top shipper on the team, now I run it: nobody stays stuck, anyone falling behind gets back on track, and anyone running ahead gets a harder problem. Coding agents write most of my own code; I direct them and own what ships.
+Engineering lead at [Build Launch Iterate](https://buildlaunchiterate.ca), team of 8. I was the top shipper on the team, now I run it: nobody stays stuck, anyone falling behind gets back on track, and anyone running ahead gets a harder problem.
 
 Check out [my site](https://edwardtran.ca) or [LinkedIn](https://linkedin.com/in/edwardtran123)
 
