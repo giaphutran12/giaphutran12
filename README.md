@@ -13,7 +13,7 @@ Check out [my site](https://edwardtran.ca) or [LinkedIn](https://linkedin.com/in
 - **Tower** — Linear, Notion, Slack and Gmail in one agent-native app. Our team and our AI agents work in it every day, with shared memory and JARVIS to ask anything (private, ask me for a demo)
 - **PearlPortal** — The mortgage platform Blue Pearl's brokers run on: CRM, loan proposals and AML checks in one app (private)
 - **[BigSet](https://github.com/tinyfish-io/bigset-oss)** — Type one sentence, get a live dataset researched by web agents (TinyFish, 1.7k+ stars)
-- **[RizzCode](https://github.com/giaphutran12/rizzcode)** — LeetCode for dating. Practise real conversations, level up your social skills
+- **[RizzCode](https://github.com/giaphutran12/rizzcode)** — LeetCode for dating. Grind problems, level up your rizz
 
 ### Open Source
 
